@@ -1,0 +1,66 @@
+def projeto1():
+    print("Hello World!!!")
+
+
+def projeto2():
+    numero = input("Digite um número: ")
+    print("Número digitado: ", numero)
+
+
+def projeto3():
+    numero1 = input("Digite o primeiro número: ")
+    numero2 = input("Digite o segundo número: ")
+    print("A soma dos números é: ", (int(numero1) + int(numero2)))
+
+
+def projeto4():
+    nota1 = int(input("Digite a primeira nota: "))
+    nota2 = int(input("Digite a segunda nota: "))
+    nota3 = int(input("Digite a terceira nota: "))
+    nota4 = int(input("Digite a quarta nota: "))
+
+    media = (nota1 + nota2 + nota3 + nota4) / 4
+
+    print("A média é: ", float(media))
+
+
+def projeto5():
+    def Metros_Para_Centimetros():
+        centimetros = metros * 100
+        print("Centimetros: ", centimetros)
+
+    metros = int(input("Metros: "))
+
+    Metros_Para_Centimetros()
+
+
+def projeto6():
+    raio = float(input("Digite o raio da circunferência: "))
+
+    area = float((3.14 * raio) ** 2)
+
+    print("Área total da circunferência: {:.2f}".format(area))
+
+
+def projeto7():
+    aresta = int(input("Digite o tamanho da aresta: "))
+
+    area = aresta ** 2
+
+    print("Área do quadrado: {}".format(area))
+    print("\nDobro da área: {}".format(area * 2))
+
+
+def projeto8():
+    ganho_por_hora = float(input("Quanto você ganha por hora? "))
+
+    horas_trabalhadas = float(input("Quantas horas você trabalhou neste mês? "))
+
+    print("Salário total do mês atual: {:.2f}" .format(ganho_por_hora * horas_trabalhadas))
+
+
+def projeto9():
+    
+
+
+projeto8()
