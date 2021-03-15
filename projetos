@@ -60,7 +60,40 @@ def projeto8():
 
 
 def projeto9():
+    fahrenheit = float(input("Graus para converter: "))
     
-
-
-projeto8()
+    celsius = float((fahrenheit - 32) * 5 / 9)
+    
+    print("Graus em Celsius: {:.2f}" .format(celsius))
+    
+    
+def projeto10():
+    celsius = float(input("Graus para converter: "))
+    
+    fahrenheit = float((celsius * 9 / 5) + 32)
+    
+    print("Graus em Fahrenheit: {:.2f}" .format(fahrenheit))
+    
+    
+def projeto11():
+    a = int(input("Digite o primeiro numero (int): "))
+    b = int(input("Digite o segundo numero (int): "))
+    c = float(input("Digite o terceiro numero (float): "))
+    
+    print("\nProduto do dobro do segundo com metade do primeiro: {:.2f}".format((a * 2) * (b / 2)))
+    print("\nSoma do triplo do primeiro com o terceiro: {:.2f}" .format((a * 3) + c))
+    print("\nTerceiro elevado ao cubo: {:.2f}" .format(c ** 3))
+    
+    
+def projeto12():
+    altura = float(input("Digite sua altura: "))
+    print("Seu peso ideal é: {:.2f}" .format(72.7 * altura - 58))
+    
+    
+def projeto13():
+    altura_homem = float(input("Digite sua altura (homem): "))
+    altura_mulher = float(input("Digite sua altura (mulher): "))
+    print("\nPeso ideal do homem: {:.2f}" .format(72.7 * altura - 58))
+    print("\nPeso ideal da mulher: {:.2f}" .format(62.1 * altura - 44.7))
+    
+    
